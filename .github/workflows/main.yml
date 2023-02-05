@@ -31,7 +31,6 @@ jobs:
     - name: Run Bug Finder
       # Use the 'run-cpptest-action' GitHub action.
       # uses: parasoft/run-cpptest-action@2.0.0
-      uses: echo 'step'@1.00
       # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
       # with:
       #   reportFormat: xml,html,custom
