@@ -25,7 +25,9 @@ jobs:
 
     # Checks out your repository under $GITHUB_WORKSPACE, so that your job can access it.
     - name: echo something
-      run: echo 'hello github on self hosted machine'
+      run: |
+        echo 'hello github on self hosted machine'
+        polyspace-bug-finder-server -sources first_analysis.c -msira3 all -checkers all
       
       
       
