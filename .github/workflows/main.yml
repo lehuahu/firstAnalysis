@@ -27,7 +27,7 @@ jobs:
     - name: echo something
       run: |
         echo 'hello github on self hosted machine'
-        polyspace-bug-finder-server -sources first_analysis.c -misra3 all -checkers all
+        polyspace-bug-finder-server -sources ../first_analysis.c -misra3 all -checkers all
       
       
       
