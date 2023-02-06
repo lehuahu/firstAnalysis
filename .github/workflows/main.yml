@@ -27,7 +27,7 @@ jobs:
     - name: echo something
       run: |
         dir
-        
+        pwd 
         echo 'hello github on self hosted machine'
         cd ..
         polyspace-bug-finder-server -sources first_analysis.c -misra3 all -checkers all
