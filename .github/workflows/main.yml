@@ -22,6 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
+    - name: checkout
+      run: actions/checkout@master
 
     # Checks out your repository under $GITHUB_WORKSPACE, so that your job can access it.
     - name: echo something
